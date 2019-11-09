@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+@import "reset.css";
+
+body {
+  font-family: "Open sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #f8f8f8;
+}
+
+button {
+  outline: none;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin: 70px 0;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.input-container input {
+  width: 90%;
+  height: 50px;
+  margin-bottom: 25px;
+  padding: 0 20px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  border: 1px gray solid;
+  letter-spacing: 1px;
+}
+
+.input-container input:focus {
+  outline: none;
+}
+
+.right-row {
+  width: 90%;
+  height: 100%;
+  text-align: end;
+  margin-bottom: 20px;
+}
+
+.right-row span {
+  color: #e2283d;
+  font-weight: 700;
+}
+
+.left-row {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.left-row input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.left-row span {
+  color: gray;
+}
+
+.signin {
+  width: 90%;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #e2283d;
+  color: white;
+  font-size: 16px;
+  border: none;
+  letter-spacing: 1px;
+}
+
+.or {
+  margin: 40px 0;
+  width: 90%;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.button-container {
+  width: 90%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.button-container .left-btn {
+  width: 48%;
+  height: 50px;
+  border: none;
+  color: white;
+  background-color: #475a95;
+  border-radius: 25px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.button-container .right-btn {
+  width: 48%;
+  height: 50px;
+  border: none;
+  color: white;
+  background-color: #5da1f2;
+  border-radius: 25px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.extra-row {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.extra-row span {
+  color: gray;
+  margin-right: 10px;
+}
+
+.extra-row a span {
+  color: #e2283d;
+}

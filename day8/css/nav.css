@@ -1,0 +1,35 @@
+.nav {
+  position: fixed;
+  background-color: #fcfcfc;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  padding: 20px 30px;
+  /* border-top: 1px solid #f7f7f7; */
+  height: 120px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav .nav__list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav i {
+  font-size: 22px;
+}
+
+.nav__list-link .fa-plus {
+  border: 1px #1cb670 solid;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+  background-color: #1cb670;
+}
